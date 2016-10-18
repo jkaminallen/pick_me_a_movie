@@ -44,8 +44,10 @@ group :development do
 end
 
 group :test do
-  gem 'coveralls', require: false 
+  gem 'coveralls', require: false
   gem 'rspec-rails'
+  gem 'factory_girl'
+  gem 'database_cleaner'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
