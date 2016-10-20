@@ -15,6 +15,5 @@ FactoryGirl.define do
       sequence(:name) { |n| "The Shining #{n}" }
       sequence(:description) { |n| "A chilling horror" }
       avatar 'imdb.png'
-      user
     end
 end

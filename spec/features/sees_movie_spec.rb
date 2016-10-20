@@ -1,5 +1,10 @@
 require 'rails_helper'
 
-feature
+feature 'user sees a movie' do
+  let!(:movie) { FactoryGirl.create(:movie) }
 
-end 
+  scenario 'the movie name is visible' do
+    visit root_path
+    expect(page).to have_content(movie.name)
+  end
+end
