@@ -1,0 +1,57 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Robot/challenges/pick_me_a_movie/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Robot/challenges/pick_me_a_movie/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Robot/challenges/pick_me_a_movie/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Robot/challenges/pick_me_a_movie/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Robot/challenges/pick_me_a_movie/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Robot/challenges/pick_me_a_movie/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/Robot/challenges/pick_me_a_movie/app/controllers/movies_controller.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/Robot/challenges/pick_me_a_movie/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/Robot/challenges/pick_me_a_movie/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1476814792
+  }
+}
