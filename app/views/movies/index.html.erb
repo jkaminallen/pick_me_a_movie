@@ -6,4 +6,15 @@
   <% end %>
 </ul>
 
-<h1>Movie</h1>
+<h1>Movies here yes</h1>
+
+<div classname="rand-movie">
+  <h2><%= @title %></h2>
+  <ul>
+    <li><%= @rating %></li>
+    <li>"<%= @synopsis %>"</li>
+  </ul>
+  <img src=<%= @poster %> />
+</div>
+
+<div classname="api-source">API Provided by The Movie DB</div>
